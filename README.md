@@ -24,13 +24,13 @@ Test data file is Present inside Project folder itself i.e - file1.txt, file2.tx
 3. Run the RestAssuredAnswersTest class which is under `DKatalisAssigment2/src/main/java/RestAssuredAnswersTest.java`
 
 **Run Unit Test**
-run unit test via maven command
-mvn -Dtest=TestCircle test or mvn test
-or
-you can choose individual file to test as well
+run unit test via maven command </br>
+mvn -Dtest=TestCircle test or mvn test </br>
+or </br>
+you can choose individual file to test as well </br>
 
 **Output Result** </br>
-OutPut Result is available on console below mention format.
+OutPut Result is available on console below mention format. </br>
  `https://reqres.in/api/users/1 equals https://reqres.in/api/users/1` </br>
  `https://reqres.in/api/users/2 equals https://reqres.in/api/users/2` </br>
  `https://reqres.in/api/users/3 equals https://reqres.in/api/users/3`</br>
