@@ -12,7 +12,7 @@ I used following dependency  </br>
 RestAssuredAnswersTest </br>
 
 **Unit Test** </br>
-1.This is written to test compare.
+1.This is written to test compare. </br>
 2. This is written for to test API response is valid or invalid.
 
 **Dummy test Data** </br>
@@ -39,6 +39,6 @@ OutPut Result is available on console below mention format. </br>
  `https://reqres.in/api/users/8 not equals https://reqres.in/api/users/9` </br>
 
 
-**Note**
-The src/main/java directory contains the source code of our unit tests.
+**Note** </br>
+The src/main/java directory contains the source code of our unit tests. </br>
 The src/test/java directory contains the resources of our unit tests.
