@@ -12,8 +12,8 @@ I used following dependency  </br>
 RestAssuredAnswersTest </br>
 
 **Unit Test** </br>
-1.This is written to test compare. </br>
-2. This is written for to test API response is valid or invalid.
+1.This is written to test compare function . </br>
+2. This is written for to test APIresponse function is valid or invalid.
 
 **Dummy test Data** </br>
 Test data file is Present inside Project folder itself i.e - file1.txt, file2.txt
