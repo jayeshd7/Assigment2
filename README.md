@@ -31,14 +31,12 @@ you can choose individual file to test as well
 
 **Output Result** </br>
 OutPut Result is available on console below mention format.
-`https://reqres.in/api/users/1 equals https://reqres.in/api/users/1
- https://reqres.in/api/users/2 equals https://reqres.in/api/users/2
- https://reqres.in/api/users/3 equals https://reqres.in/api/users/3
- https://reqres.in/api/users/4 equals https://reqres.in/api/users/4
- https://reqres.in/api/users/5 equals https://reqres.in/api/users/5
- https://reqres.in/api/users/6 not equals https://reqres.in/api/users/7
- https://reqres.in/api/users/7 not equals https://reqres.in/api/users/8
- https://reqres.in/api/users/8 not equals https://reqres.in/api/users/9`
+ `https://reqres.in/api/users/1 equals https://reqres.in/api/users/1` </br>
+ `https://reqres.in/api/users/2 equals https://reqres.in/api/users/2` </br>
+ `https://reqres.in/api/users/3 equals https://reqres.in/api/users/3`</br>
+ `https://reqres.in/api/users/6 not equals https://reqres.in/api/users/7` </br>
+ `https://reqres.in/api/users/7 not equals https://reqres.in/api/users/8` </br>
+ `https://reqres.in/api/users/8 not equals https://reqres.in/api/users/9` </br>
 
 
 **Note**
