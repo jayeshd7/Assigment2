@@ -3,6 +3,6 @@ import java.io.IOException;
 
 public interface IComparator {
 
-    public boolean compare(X x, Y y) ;
-    public Wrapper<X, Y> getData(File file1, File file2) throws IOException;
+    public boolean compareResponse(String x, String y) ;
+    public void getCompareFile(File file1, File file2) throws IOException;
 }
