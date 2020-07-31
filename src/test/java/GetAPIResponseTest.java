@@ -10,7 +10,7 @@ class GetAPIResponseTest {
      */
 
     @ParameterizedTest
-    @ValueSource(strings = {"https://reqres.in/api/users/1","https://reqres.in/api/users/2"})
+    @ValueSource(strings = {"https://reqres.in/api/users/1", "https://reqres.in/api/users/2"})
     void fetchAPIResponsePositive(String url) {
         GetAPIResponse getAPIResponse = new GetAPIResponse();
         String actual = getAPIResponse.fetchAPIResponse(url);
@@ -21,7 +21,7 @@ class GetAPIResponseTest {
 
 
     @ParameterizedTest
-    @ValueSource(strings = {"https://reqres.in/api/users/1000","https://reqres.in/api/users/2000"})
+    @ValueSource(strings = {"https://reqres.in/api/users/1000", "https://reqres.in/api/users/2000"})
     void fetchAPIResponseNegative(String url) {
         GetAPIResponse getAPIResponse = new GetAPIResponse();
         String actual = getAPIResponse.fetchAPIResponse(url);
@@ -31,4 +31,4 @@ class GetAPIResponseTest {
     }
 
 
-    }
+}

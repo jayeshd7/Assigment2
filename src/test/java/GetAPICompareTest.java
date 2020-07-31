@@ -9,7 +9,7 @@ class GetAPICompareTest {
     @Test
     void compareResponse() {
         GetAPICompare getAPICompare = new GetAPICompare();
-        Boolean value = getAPICompare.compareResponse("abc","abc");
+        Boolean value = getAPICompare.compareResponse("abc", "abc");
         assertTrue(value);
     }
 

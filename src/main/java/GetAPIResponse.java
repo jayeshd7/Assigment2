@@ -1,8 +1,8 @@
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import java.util.HashMap;
 
+import java.util.HashMap;
 
 
 public class GetAPIResponse {
@@ -17,7 +17,7 @@ public class GetAPIResponse {
 
     public String fetchAPIResponse(String url) {
         String responseBody = hashMap.get(url);
-        if(responseBody == null) {
+        if (responseBody == null) {
             RequestSpecification httpRequest = RestAssured.given();
             Response response = httpRequest.get(url);
             if (response.statusCode() == 200) {
